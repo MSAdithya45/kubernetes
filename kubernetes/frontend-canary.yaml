@@ -22,7 +22,7 @@ spec:
         eks.amazonaws.com/nodegroup: frontend-canary-ng   # Updated for EKS nodegroup
       containers:
       - name: frontend
-        image: madithya/frontend:02
+        image: madithya/frontend:01
         ports:
         - containerPort: 80
         resources:
@@ -51,6 +51,7 @@ spec:
       targetPort: 80
 
       protocol: TCP
+
 
 
 
